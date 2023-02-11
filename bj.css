@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+body{
+    background: url(IMAGES/j26r8m.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #ffdc00;
+    font-family: 'Shojumaru', cursive;
+    font-size: 5rem;
+}
+#message{
+    font-style: italic;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-image: linear-gradient(to right, #b4e600 0%, #e4ba00 100%);
+    border-radius: 15px;
+    height: 55px;
+    width: 350px;
+    margin: 6px 0;
+    color: #035b07;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0 9px rgb(65, 65, 65);
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to left, #bcf000 0%, #e7c503 100%);
+    width: 400px;
+    height: 60px;
+}
+.btn:active{
+    box-shadow: 0 5px rgb(0, 0, 0);
+    transform: translateY(4px);
+}
